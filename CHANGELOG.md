@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.0.0](https://github.com/lewis6991/gitsigns.nvim/compare/v0.9.0...v1.0.0) (2024-06-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove current_line_blame_formatter_opts
+* remove support for yadm
+* **config:** deprecate highlight groups in config.signs
+
+### Features
+
+* **blame:** add `Gitsigns blame` ([25b6ee4](https://github.com/lewis6991/gitsigns.nvim/commit/25b6ee4be514b38d5bfe950d790a67042e05ef35))
+* **config:** deprecate highlight groups in config.signs ([3d7e49c](https://github.com/lewis6991/gitsigns.nvim/commit/3d7e49c201537ee0293a1a3abe67b67f8e7648a5))
+* **nav:** add target option ([9291836](https://github.com/lewis6991/gitsigns.nvim/commit/929183666540e164fa74028954ade62fa703fa1a))
+* remove current_line_blame_formatter_opts ([92a8fbb](https://github.com/lewis6991/gitsigns.nvim/commit/92a8fbb8453571978468e4ad2d4f8cd302d79eab))
+* remove support for yadm ([61f5b64](https://github.com/lewis6991/gitsigns.nvim/commit/61f5b6407611a25e2d407ac0bc60e5c87c25ad72))
+* **signs:** able staged signs by default ([b8cf5e8](https://github.com/lewis6991/gitsigns.nvim/commit/b8cf5e8efaa0036d493a2e2dfed768c3a03fac73))
+* tweak how commit buffers are processed ([47c8e3e](https://github.com/lewis6991/gitsigns.nvim/commit/47c8e3e571376b24de62408fd0c9d12f0a9fc0a3))
+
+
+### Bug Fixes
+
+* **nav:** misc bugs ([7516bac](https://github.com/lewis6991/gitsigns.nvim/commit/7516bac5639a9ce8e7b199066199a02cb3057230))
+* **util:** ignore endofline when running blame ([def49e4](https://github.com/lewis6991/gitsigns.nvim/commit/def49e48c6329527e344d0c99a0d2cd9fdf6bb84))
+* **watcher:** fix debounce ([f846c50](https://github.com/lewis6991/gitsigns.nvim/commit/f846c507242a74d9a458bff2d029bd2eae8c0ca1)), closes [#1046](https://github.com/lewis6991/gitsigns.nvim/issues/1046)
+
 ## [0.9.0](https://github.com/lewis6991/gitsigns.nvim/compare/v0.8.1...v0.9.0) (2024-06-12)
 
 
